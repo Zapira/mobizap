@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Zapira Mobile View",
+    "version": "1.0.0",
+    "description": "Mobile view extension for browsing websites in a simulated phone frame.",
+    "permissions": [
+        "tabs"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "Zapira Mobile View"
+    }
+}
