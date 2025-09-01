@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Zapira Mobile View",
+    "name": "Mobizap",
     "version": "1.0.0",
     "permissions": [
         "scripting",
@@ -11,7 +11,7 @@
         "service_worker": "background.js"
     },
     "action": {
-        "default_title": "Zapira Mobile View"
+        "default_title": "Mobizap"
     },
     "web_accessible_resources": [
         {
