@@ -5,16 +5,19 @@ export default function Content() {
   const [currentUrl, setCurrentUrl] = useState<string>("");
 
   useEffect(() => {
-    if (typeof chrome !== "undefined" && chrome.tabs) {
-      chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
-        if (tabs[0]?.url) {
-          setCurrentUrl(tabs[0].url);
+    if (typeof chrome !== "undefined" && chrome.storage) {
+      chrome.storage.session.get("zapira_prev_url", (result) => {
+        if (result.zapira_prev_url) {
+          setCurrentUrl(result.zapira_prev_url);
+        } else {
+          setCurrentUrl("https://muhammadrizki.vercel.app");
         }
       });
-    }else{
+    } else {
       setCurrentUrl("https://muhammadrizki.vercel.app");
     }
   }, []);
+
 
   const dataPhone = [
     {
