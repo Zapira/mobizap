@@ -37,11 +37,11 @@ npm run build
 We welcome contributions from everyone!
 Since Mobizap is open source, you can help us grow the project by:
 
-🐛 Reporting bugs via Issues
-💡 Suggesting new features
-🔧 Submitting pull requests (PRs)
-🎨 Designing better mockups or UI improvements
-📖 Improving documentation
+- 🐛 Reporting bugs via [Issues](https://github.com/Zapira/mobizap/issues)
+- 💡 Suggesting new features
+- 🔧 Submitting pull requests (PRs)
+- 🎨 Designing better mockups or UI improvements
+- 📖 Improving documentation
 
 🤝  How to Contribute
 1. Fork the repository
