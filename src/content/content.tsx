@@ -76,6 +76,7 @@ export default function Content() {
           {/* Iframe buka URL tab aktif */}
           {currentUrl ? (
             <iframe
+              title="content-frame"
               src={currentUrl}
               className="w-full h-[calc(100%-48px)] border-0"
             />
